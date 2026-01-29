@@ -1,0 +1,339 @@
+/* Futurista y saludable */
+:root{
+  --green-main: #0ff1ce;
+  --green-dark: #0c9275;
+  --green-accent: #27AE60;
+  --green-soft: #e0fff7;
+  --green-light: #b8ffe6;
+  --green-btn-hover: #0c9275;
+  --accent-main: #f9f871;
+  --accent-hover: #f7e32c;
+  --white: #FFFFFF;
+  --bg-main: linear-gradient(120deg, #0f2027 0%, #2f7d32 100%);
+  --bg-soft: #e0fff7;
+  --gray-bg: #eafaf7;
+  --border-soft: #b8ffe6;
+  --text-main: #0ff1ce;
+  --text-soft: #b8ffe6;
+  --text-invert: #0f2027;
+  --shadow: 0 6px 28px rgba(47,255,206,0.18);
+  --radius: 18px;
+  --transition: 0.25s cubic-bezier(.4,0,.2,1);
+}
+
+/* Reset / layout */
+*{box-sizing:border-box}
+body.futuristic-bg {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-main);
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: 100vh;
+  /* VARIABLES: Colores y estilos base. Cambia estos valores para modificar la paleta de colores y el look general. */
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.futuristic-font {
+  font-family: 'Orbitron', 'Inter', Arial, sans-serif;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #0ff1ce 0%, #f9f871 100%);
+  -webkit-background-clip: text;
+  /* BODY: Estilos generales del cuerpo de la página. Puedes cambiar la fuente, el fondo o el color de texto aquí. */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glassmorph {
+  background: rgba(255,255,255,0.10);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+  /* CONTAINER: Limita el ancho del contenido y centra la página. Modifica el max-width o padding para ajustar el espacio. */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: var(--radius);
+  /* HEADER: Fondo y sombra del encabezado. Cambia el gradiente o la sombra para personalizar el header. */
+  border: 1.5px solid rgba(47,255,206,0.18);
+}
+
+.neon-glow {
+  box-shadow: 0 0 12px 2px #0ff1ce, 0 0 32px 4px #27AE60;
+  border: 1.5px solid #0ff1ce;
+}
+
+.pulse-btn {
+  animation: pulse 1.5s infinite alternate;
+}
+  /* LOGO: Caja y estilo del logo. Puedes cambiar el tamaño, color o forma del logo aquí. */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 #0ff1ce44; }
+  100% { box-shadow: 0 0 16px 8px #0ff1ce33; }
+}
+  /* LOGO TEXTOS: Estilo de los textos del logo. Modifica el tamaño o color para personalizar la marca. */
+
+.futuristic-card {
+  border-radius: 18px;
+  /* SELECTOR DE IDIOMA: Estilos para los botones de idioma. Cambia colores o bordes para personalizar el switcher. */
+  box-shadow: 0 4px 32px 0 #0ff1ce33;
+  border: 1.5px solid #0ff1ce44;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.futuristic-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  /* BOTÓN PRINCIPAL: Estilo del botón de llamada a la acción. Cambia colores, tamaño o bordes para personalizarlo. */
+  box-shadow: 0 8px 48px 0 #0ff1ce55;
+}
+
+.futuristic-img-glow {
+  box-shadow: 0 0 24px 4px #0ff1ce55, 0 0 64px 8px #27AE6033;
+  border-radius: 18px;
+}
+
+  /* HERO: Fondo y espaciado de la sección principal. Modifica el gradiente o padding para cambiar el look inicial. */
+/* Container */
+.container{
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+  /* BENEFICIOS: Fondo y espaciado de la sección de beneficios. Cambia el padding o color de fondo aquí. */
+/* Header */
+.header{position: sticky; top: 0; z-index: 1000; background: linear-gradient(90deg,var(--green-main),var(--green-dark)); box-shadow:0 2px 14px rgba(0,0,0,0.08); }
+.header-inner{ display:flex; align-items:center; justify-content:space-between; padding:16px 0; gap:20px; }
+.logo{ display:flex; align-items:center; gap:14px; color:var(--white); }
+.logo-box{
+  background:linear-gradient(135deg,var(--green-main),var(--green-accent));
+  color:var(--white);
+  font-weight:900;
+  font-size:2rem;
+  width:60px;height:60px;border-radius:16px;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 0 24px 4px #0ff1ce55;
+  /* TARJETAS DE BENEFICIOS: Estilo de cada tarjeta de beneficio. Modifica bordes, sombra o tamaño aquí. */
+  border:2px solid #0ff1ce;
+}
+
+  /* OFERTAS: Espaciado y fondo de la sección de ofertas. Cambia el padding o color de fondo aquí. */
+.logo-text-main{ font-weight:900; font-size:1.35rem; color:var(--white); letter-spacing:0.5px; }
+.logo-text-sub{ color:var(--white); font-weight:600; font-size:1rem; opacity:0.95; }
+
+/* Header right */
+.header-right{ display:flex; align-items:center; gap:16px; }
+
+/* Lang switcher */
+.lang-switcher{ display:flex; gap:8px; align-items:center; background:var(--green-soft); border-radius:22px; padding:4px; }
+  /* TARJETAS DE OFERTA: Estilo de cada tarjeta de producto/servicio. Modifica bordes, sombra o tamaño aquí. */
+.lang-switcher .lang-btn{
+  border:none; background:none; color:var(--green-dark); font-weight:600;
+  padding:8px 12px; border-radius:12px; cursor:pointer; transition: background var(--transition), color var(--transition);
+  /* DIETAS: Fondo y espaciado de la sección de dietas. Cambia el color de fondo o padding aquí. */
+}
+.lang-switcher .lang-btn.active{ background:var(--green-main); color:var(--white); box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+  /* TARJETAS DE DIETA: Estilo de cada tarjeta de dieta/plan. Modifica bordes, sombra o tamaño aquí. */
+
+/* CTA */
+  /* FAQ: Fondo y espaciado de la sección de preguntas frecuentes. Cambia el gradiente o padding aquí. */
+.cta-btn{
+  background:var(--accent-main); color:var(--text-invert); font-weight:800; border:none;
+  /* TARJETAS FAQ: Estilo de cada pregunta frecuente. Modifica bordes, sombra o tamaño aquí. */
+  border-radius:18px; padding:12px 20px; font-size:1rem; box-shadow:0 8px 30px rgba(249,168,37,0.22); cursor:pointer;
+  transition: background var(--transition), transform var(--transition);
+}
+.cta-btn:hover{ background:var(--accent-hover); transform:translateY(-2px); }
+
+  /* RESPONSIVE: Ajustes para pantallas pequeñas. Modifica los breakpoints o columnas aquí. */
+/* Hero */
+.hero-offer-btn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px auto 20px auto; /* centrado horizontal */
+  padding: 10px 26px;
+
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  background: linear-gradient(135deg, #00ffc6, #2ecc71);
+  color: #0b3d2e;
+
+  border: none;
+  border-radius: 999px;
+
+  box-shadow:
+    0 0 18px rgba(0, 255, 198, 0.65),
+    0 0 36px rgba(46, 204, 113, 0.45);
+
+  animation: pulseGlow 1.6s infinite;
+}
+  @keyframes pulseGlow{
+  0%{
+    transform: scale(1);
+    box-shadow:
+      0 0 18px rgba(0,255,198,.6),
+      0 0 36px rgba(46,204,113,.4);
+  }
+  50%{
+    transform: scale(1.08);
+    box-shadow:
+      0 0 28px rgba(0,255,198,.9),
+      0 0 56px rgba(46,204,113,.7);
+  }
+  100%{
+    transform: scale(1);
+    box-shadow:
+      0 0 18px rgba(0,255,198,.6),
+      0 0 36px rgba(46,204,113,.4);
+  }
+}
+.hero.futuristic-hero {
+  padding: 72px 0 48px 0;
+  background: linear-gradient(120deg, #0ff1ce 0%, #e0fff7 100%);
+  position: relative;
+  overflow: hidden;
+}
+.hero-title {
+  color: var(--green-dark);
+  font-size: 2.4rem;
+  margin: 8px 0;
+  text-shadow: 0 2px 12px #0ff1ce33;
+}
+.hero-subtitle {
+  color: var(--text-soft);
+  max-width: 780px;
+  font-size: 1.15rem;
+}
+.hero-visual {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Benefits */
+.benefits-section {
+  background: var(--gray-bg);
+  padding: 56px 0;
+  color: var(--green-dark);
+}
+.benefits-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 32px;
+  color: var(--green-main);
+}
+.benefits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+.benefit-card {
+  background: var(--white);
+  border: 1.5px solid var(--border-soft);
+  padding: 22px;
+  border-radius: 18px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 0 4px 32px 0 #0ff1ce22;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.benefit-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 8px 48px 0 #0ff1ce55;
+  border-color: var(--green-main);
+}
+.benefit-icon {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  background: linear-gradient(135deg, var(--green-main), var(--green-accent));
+  color: var(--white);
+  font-size: 1.7rem;
+  box-shadow: 0 0 16px 2px #0ff1ce55;
+}
+.benefit-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--green-dark);
+}
+.benefit-desc {
+  color: #0c9275;
+  font-size: 1.02rem;
+}
+
+/* Offers */
+.offers-section { padding: 48px 0; }
+.offers-container { display: grid; grid-template-columns: 1fr 320px; gap: 36px; align-items: start; }
+.offers-image { width: 100%; height: 100%; object-fit: cover; border-radius: 18px; }
+.offer-card {
+  display: flex; gap: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), var(--white));
+  padding: 20px; border-radius: 18px;
+  box-shadow: 0 4px 32px 0 #0ff1ce22;
+  border: 1.5px solid #0ff1ce22;
+}
+.offer-thumb {
+  width: 150px; height: 120px; border-radius: 16px;
+  background-size: cover; background-position: center; flex-shrink: 0;
+  box-shadow: 0 0 24px 4px #0ff1ce33;
+}
+.offer-title { font-size: 1.18rem; font-weight: 800; color: var(--green-main); }
+.offer-desc { color: #0c9275; margin-bottom: 10px; }
+.offer-cta { display: flex; align-items: center; gap: 10px; }
+.price-tag { background: var(--white); color: var(--green-dark); font-weight: 800; padding: 7px 12px; border-radius: 12px; border: 1px solid #0ff1ce33; }
+
+/* Diets */
+.diets-section { background: var(--gray-bg); padding: 44px 0; }
+.diets-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+.diet-card { background: var(--white); border-radius: 18px; overflow: hidden; box-shadow: 0 4px 32px 0 #0ff1ce22; border: 1.5px solid var(--green-light); }
+.diet-thumb { width: 100%; height: 170px; object-fit: cover; display: block; }
+.diet-body { padding: 16px; }
+.diet-title { font-weight: 800; color: var(--green-main); margin-bottom: 8px; }
+.diet-desc { color: #0c9275; font-size: 1.02rem; }
+
+/* FAQ */
+.faq-section { padding: 48px 0; background: linear-gradient(180deg, #b8ffe6 0%, #eafaf7 100%); color: var(--green-dark); }
+.faq-item { background: var(--white); border-radius: 18px; padding: 16px 20px; margin-bottom: 16px; border: 1.5px solid var(--green-light); box-shadow: 0 4px 32px 0 #0ff1ce22; }
+.faq-q { display: flex; justify-content: space-between; align-items: center; font-weight: 800; }
+.faq-a{
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 
+    max-height 0.4s ease,
+    opacity 0.3s ease,
+    padding 0.3s ease;
+
+  padding: 0 16px;
+}
+
+.faq-item:hover .faq-a{
+  max-height: 300px; /* suficiente para el texto */
+  opacity: 1;
+  padding: 12px 16px;
+}
+
+/* Responsive */
+@media (max-width:1000px){
+  .offers-container{ grid-template-columns:1fr; }
+  .diets-grid{ grid-template-columns:repeat(2,1fr); }
+}
+@media (max-width:700px){
+  .header-inner{ flex-direction:column; align-items:flex-start; gap:12px; }
+  .benefits-grid{ flex-direction:column; align-items:center; }
+  .diets-grid{ grid-template-columns:1fr; }
+  .logo-box{ width:44px; height:44px; font-size:1.2rem; }
+}

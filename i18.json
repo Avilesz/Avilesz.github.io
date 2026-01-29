@@ -1,0 +1,128 @@
+{
+  "es": {
+    "logoMain": "Cuida tu Salud",
+    "logoSub": "Con Remedios Saludables",
+    "buyNow": "Comprar Ahora",
+    "offer": "¡OFERTA POR TIEMPO LIMITADO!",
+    "title": "Más de 90 recetas de remedios naturales",
+    "subtitle": "La guía rápida y efectiva para transformar tu cuerpo y tu salud. Sin dietas extremas y con resultados reales.",
+    "benefitsTitle": "¿Por qué funciona?",
+    "b1t": "Pérdida Rápida",
+    "b1d": "Métodos probados para quemar grasa desde la primera semana",
+    "b2t": "Estrategias de alimentación",
+    "b2d": "Recetas simples y deliciosas que aceleran tu metabolismo",
+    "b3t": "Sin Complicaciones",
+    "b3d": "Instrucciones claras, fáciles de seguir, sin ingredientes raros",
+    "b4t": "100% Saludable",
+    "b4d": "Sin pastillas, sin dietas extremas. Solo resultados reales",
+    "shakesTitle": "Rutina Natural de Mañana y Noche",
+    "shakesDesc": "Los remedios funcionan mejor cuando el cuerpo está en equilibrio. La Rutina Natural de Mañana y Noche te muestra cómo preparar tu organismo cada día para que los remedios naturales realmente den resultados.",
+    "shakesPrice": "$23.325,00",
+    "shakesCTA": "Comprar Batidos",
+    "dietsTitle": "Dosificador Natural",
+    "dietsDesc": "Usar remedios naturales sin una dosificación clara es uno de los errores más comunes. Este dosificador natural te indica cuánto tomar y cuándo para maximizar resultados.",
+    "dietsPrice": "$19.439,00",
+    "dietsCTA": "Ver Planes",
+    "offersHeading": "Ofertas Especiales",
+    "faqHeading": "Preguntas Frecuentes",
+    "dietsheading": "Dietas Saludables",
+    "faq": [
+      {
+        "q": "¿Estos planes son seguros?",
+        "a": "Sí. Todas las guías se basan en principios nutricionales seguros y moderados. Consulta con tu médico si tienes condiciones preexistentes."
+      },
+      {
+        "q": "¿Necesito equipo especial?",
+        "a": "No, nuestras recetas y planes están diseñados para ser fáciles, con ingredientes y utensilios básicos de cocina."
+      },
+      {
+        "q": "¿Cómo recibo los productos digitales?",
+        "a": "Tras la compra recibirás un enlace de descarga instantánea y un correo con las instrucciones."
+      }
+    ]
+  },
+  "en": {
+    "logoMain": "Take care of your health",
+    "logoSub": "With Healthy Remedies",
+    "buyNow": "Buy Now",
+    "offer": "LIMITED TIME OFFER!",
+    "title": "More than 90 natural remedy recipes",
+    "subtitle": "The quick and effective guide to transform your body and health. No extreme diets and with real results.",
+    "benefitsTitle": "Why does it work?",
+    "b1t": "Fast Weight Loss",
+    "b1d": "Proven methods to burn fat from the first week",
+    "b2t": "Eating Strategies",
+    "b2d": "Simple and delicious recipes that speed up your metabolism",
+    "b3t": "No Hassle",
+    "b3d": "Clear, easy-to-follow instructions, no weird ingredients",
+    "b4t": "100% Healthy",
+    "b4d": "No pills, no extreme diets. Just real results",
+    "shakesTitle": "Natural Morning and Night Routine",
+    "shakesDesc": "Remedies work best when the body is in balance. The Natural Morning and Night Routine shows you how to prepare your body each day so natural remedies really work.",
+    "shakesPrice": "$6.00",
+    "shakesCTA": "Buy Shakes",
+    "dietsTitle": "Natural Dosage Guide",
+    "dietsDesc": "Using natural remedies without a clear dosage is one of the most common mistakes. This natural dosage guide tells you how much to take and when to maximize results.",
+    "dietsPrice": "$5.00",
+    "dietsCTA": "See Plans",
+    "offersHeading": "Special Offers",
+    "faqHeading": "Frequently Asked Questions",
+    "dietsheading": "Healthy Diets",
+    "faq": [
+      {
+        "q": "Are these plans safe?",
+        "a": "Yes. All guides are based on safe and moderate nutritional principles. Check with your doctor if you have preexisting conditions."
+      },
+      {
+        "q": "Do I need special equipment?",
+        "a": "No, our recipes and plans are designed to be easy, with basic kitchen ingredients and equipment."
+      },
+      {
+        "q": "How do I receive digital products?",
+        "a": "After purchase you will receive an instant download link and an email with instructions."
+      }
+    ]
+  },
+"pt": {
+  "logoMain": "Cuide da sua Saúde",
+  "logoSub": "Com Remédios Saudáveis",
+  "buyNow": "Comprar Agora",
+  "offer": "OFERTA POR TEMPO LIMITADO!",
+  "title": "Mais de 90 receitas de remédios naturais",
+  "subtitle": "O guia rápido e eficaz para transformar seu corpo e sua saúde. Sem dietas extremas e com resultados reais.",
+  "benefitsTitle": "Por que funciona?",
+  "b1t": "Perda Rápida",
+  "b1d": "Métodos comprovados para queimar gordura desde a primeira semana",
+  "b2t": "Estratégias alimentares",
+  "b2d": "Receitas simples e deliciosas que aceleram seu metabolismo",
+  "b3t": "Sem Complicações",
+  "b3d": "Instruções claras, fáceis de seguir, sem ingredientes estranhos",
+  "b4t": "100% Saudável",
+  "b4d": "Sem pílulas, sem dietas extremas. Apenas resultados reais",
+  "shakesTitle": "Rotina Natural de Manhã e Noite",
+  "shakesDesc": "Os remédios funcionam melhor quando o corpo está em equilíbrio. A Rotina Natural de Manhã e Noite mostra como preparar seu organismo todos os dias para que os remédios naturais realmente tragam resultados.",
+  "shakesPrice": "R$23.325,00",
+  "shakesCTA": "Comprar Batidos",
+  "dietsTitle": "Dosificador Natural",
+  "dietsDesc": "Usar remédios naturais sem uma dosagem clara é um dos erros mais comuns. Este dosificador natural indica quanto tomar e quando para maximizar os resultados.",
+  "dietsPrice": "R$19.439,00",
+  "dietsCTA": "Ver Planos",
+  "offersHeading": "Ofertas Especiais",
+  "faqHeading": "Perguntas Frequentes",
+  "dietsheading": "Dietas Saudáveis",
+  "faq": [
+    {
+      "q": "Estes planos são seguros?",
+      "a": "Sim. Todos os guias são baseados em princípios nutricionais seguros e moderados. Consulte seu médico se tiver condições preexistentes."
+    },
+    {
+      "q": "Preciso de equipamento especial?",
+      "a": "Não, nossas receitas e planos foram desenvolvidos para serem fáceis, com ingredientes e utensílios básicos de cozinha."
+    },
+    {
+      "q": "Como recebo os produtos digitais?",
+      "a": "Após a compra, você receberá um link de download instantâneo e um e-mail com as instruções."
+    }
+  ]
+}
+  }
